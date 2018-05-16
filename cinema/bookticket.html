@@ -50,10 +50,6 @@
 ================================================== -->
   <body>
 
-         
-
- 
-
          <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -68,8 +64,7 @@
       <ul class="nav navbar-nav">
 
         
-  
-             <li><a href="about.html">About</a></li>
+    <li><a href="about.html">About</a></li>
             <li><a href="listinggallery.html">Listing Gallery</a></li>
               <li><a href="contact.html">Contact</a></li>
         <li><a href="admin.html">Admin Section</a></li>
@@ -79,55 +74,98 @@
       
         
           <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
-
-                 <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+  
+               <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-              
+       
+       
       </ul>
     </div>
   </div>
 </nav>
 
+ 
+
 
     </div>
 
 <br><br><br>
 
-<div id="container">
-  <center><h1> QA Cinema </h1></center>
+<center>
 
+    <h1>Book Ticket Form </h1>
+
+
+<style>
+#book input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#book input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ #book input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#book {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+}
+
+h4 {
+  float: left;
+}
+
+
+</style>
+<body>
+
+
+<div id="book">
+  <form action="">
+    <h4>Title </h4>
+    <label for="title"></label>
+    <input type="text" id="fname" name="firstname" placeholder="This will be the title of the movie taken from the database">
+
+    <br>
+    <h4>Classification </h4>
+    <label for="classification"></label>
+    <input type="text" id="classification" name="classification" placeholder="This will be the classification of the movie taken from the database">
+    <br>
+    <h4>Date and Time</h4>
+    <label for="dateandtime"></label>
+    <input type="text" id="dateandtime" name="dateandtime" placeholder="This will be the date and time of the movie taken from the database">
+    <br>
+    <h4>Seat Number</h4>
+    <label for="seatnumber"></label>
+    <input type="text" id="seatnumber" name="seatnumber" placeholder="This will be the seat number of the movie taken from the database">
+  
+
+  
+    <input type="submit" value="Book Ticket">
+  </form>
 </div>
 
 
-<div class="large_container">
 
 
-<div id="large_img">
-  <h2>Scarface</h2>
-<img src="images/largeimages/largescarface.jpg" height="600" width="400">
-</div>
-
-
-<div id="description">
-  <h4> Title: scarfaces</h4>
-  <h4> Actors:  Michelle Pfeiffer, Steven Bauer, Robert Loggia and Mary Elizabeth Mastrantonio.</h4>
-  <h4> Movie Directors: directed by Brian De Palma and written by Oliver Stone</h4><br><br>
-  <h5>Scarface is a 1983 American crime film directed by Brian De Palma and written by Oliver Stone,[4] a remake of the 1932 film of the same name.[5] The film tells the story of Cuban refugee Tony Montana (Al Pacino) who arrives in 1980s Miami with nothing and rises to become a powerful drug kingpin. The cast also features Michelle Pfeiffer, Steven Bauer, Robert Loggia and Mary Elizabeth Mastrantonio.[4]
-
-Scarface was released on December 9, 1983 and was a box office success, grossing $44 million. Initial critical reception was negative, with criticism over excessive violence and profanity and graphic drug usage. Some Cuban expatriates in Miami objected to the film's portrayal of Cubans as criminals and drug traffickers.
-
-In the years that followed, the film has received reappraisal from critics, considered by some to be one of the best crime films ever made, especially in the gangster genre. Screenwriters and directors such as Martin Scorsese have praised the film, which has been referenced extensively in pop culture, especially in rap and hip hop music[6][7] as well as comic books, TV and video games. The film has long since become a cult classic.[8][9][10][11]</h5>
-<br><br>
-<a href="bookticket.html"><button type="button" class="btn btn-primary">Buy Tickets</button></a>
-
-</div>
-
-
-
-</div>
-
-
-<br><br><br>
 
   </body>
 </html>
